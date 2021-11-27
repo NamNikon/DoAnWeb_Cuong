@@ -1,4 +1,4 @@
-﻿<?php>
+﻿<?php
 	require_once 'init.php';
 	$page = 'Trang chu';
 ?>
@@ -6,6 +6,6 @@
 <?php if ($_SESSION['user']):?>
 Chào bạn <?php echo $_SESSION['user']['displayName'] ?> đã quay lại
 <?php else: ?>
-Chào mừng quý khách đến với web
+CHÀO MỪNG QUÝ KHÁCH ĐẾN CỬA HÀNG
 <?php endif ?>
 <?php include 'footer.php';?>
