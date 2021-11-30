@@ -6,6 +6,6 @@
 <?php if ($_SESSION['user']):?>
 Chào bạn <?php echo $_SESSION['user']['displayName'] ?> đã quay lại
 <?php else: ?>
-CHÀO MỪNG QUÝ KHÁCH ĐẾN CỬA HÀNG Nguyen Tan Loc
+CHÀO MỪNG QUÝ KHÁCH ĐẾN CỬA HÀNG
 <?php endif ?>
 <?php include 'footer.php';?>
